@@ -1,0 +1,12 @@
+#!/usr/bin/python
+
+n=int(raw_imput('Introduzca un numero n>0'))
+suma=0.0
+for i in range(1,n+1):
+  xi=(i-1/2)/float(n)
+  print('El valor de xi es': xi)
+  fx=4.0/(1+(xi**2))
+  print('El valor de f(x) es': fx)
+  suma=suma + fx
+pi=(1.0/n)*suma
+  print('El valor de pi es': pi)

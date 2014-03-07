@@ -1,0 +1,7 @@
+#!/usr/bin/python
+
+suma=0.0
+for i in range(1,n+1):
+  xi=(i-1/2)/n
+  f(x)=4/(1+(xi**2))
+    suma=suma + f(x)
